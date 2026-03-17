@@ -1,6 +1,6 @@
 # People Detection – Asynchronous Image Processing System
 
-Output: detected persons with bounding boxes
+![Output: detected persons with bounding boxes](shared/results/4c98d512-ac26-4c5c-ac2d-24105c2f02bc.jpg)
 
 This project implements an asynchronous system for detecting people in images using a microservice-like architecture.
 
