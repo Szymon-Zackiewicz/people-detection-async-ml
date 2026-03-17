@@ -1,10 +1,7 @@
 # People Detection – Asynchronous Image Processing System
 
-![]<img src="shared/results/4c98d512-ac26-4c5c-ac2d-24105c2f02bc.jpg" width="300">
-<figure>
-  <img src="shared/results/4c98d512-ac26-4c5c-ac2d-24105c2f02bc.jpg" width="800" alt="Opis zdjęcia">
-  <figcaption>Output: detected persons with bounding boxes</figcaption>
-</figure>
+![Output: detected persons with bounding boxes](shared/results/4c98d512-ac26-4c5c-ac2d-24105c2f02bc.jpg)
+
 This project implements an asynchronous system for detecting people in images using a microservice-like architecture.
 
 The system uses a REST API, RabbitMQ message queue, and multiple worker services to process images in parallel. Object detection is performed using the YOLO (Ultralytics) model.
