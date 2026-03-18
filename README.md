@@ -9,14 +9,6 @@ The system uses a REST API, RabbitMQ message queue, and multiple worker services
 
 The main goal of the project is to demonstrate scalable and non-blocking processing of computationally expensive tasks.
 
-## Architecture
-
-* API service receives image requests (file upload or URL)
-* Requests are sent to RabbitMQ queue
-* Worker services consume tasks asynchronously
-* Each worker performs person detection using YOLO
-* Results are stored and returned via status endpoint
-
 ## Features
 
 - Asynchronous image processing using RabbitMQ
