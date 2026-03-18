@@ -1,6 +1,6 @@
 # People Detection – Asynchronous Image Processing System
 
-This project implements an asynchronous system for detecting people in images using a microservice-like architecture.
+This project implements an asynchronous system for detecting and counting people in images using a microservice-like architecture.
 
 ![result_image](shared/results/6eee065a-bf52-4553-8854-f23ca24cebae.jpg)  
 *Example output: detected people with bounding boxes*
